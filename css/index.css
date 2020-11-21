@@ -1,0 +1,59 @@
+.count {
+  margin: 50px auto;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background-color: #424242;
+  color: #ffffff;
+}
+.area{
+  position: relative;
+  width: 375px;
+  height: 375px;
+  margin: 5px auto;
+  background-color: #424242;
+  overflow: hidden;
+}
+
+.bodyItem{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #989898;
+}
+
+.bodyItem.head{
+  background-color:#556B2F;
+}
+
+.food{
+  position: absolute;
+  top: 150;
+  left: 250;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: url(../img/food.png);
+  background-size: 100% 100%;
+  z-index: 100;
+}
+
+.start{
+  width: 50px;
+  height: 25px;
+  margin: 30px auto;
+  outline: none;
+  text-align: center;
+  line-height: 25px;
+  background-color: #424242;
+  color: #989898;
+  border: 1px solid #989898;
+  border-radius: 5px;
+  cursor: pointer;
+}
